@@ -1,9 +1,11 @@
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args) throws Exception {
 
+      try {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome: ");
@@ -19,5 +21,9 @@ public class AboutMe {
        double altura = scanner.nextDouble();
 
        System.out.println("Olá, me chamo " + nome + " " + sobrenome + ", tenho " + idade + " anos e " + altura + " de altura.");
+      }
+      catch (InputMismatchException e) {
+        System.out.println("Os campos idade e altura devem ser preenchidos com números.");
+      }
     }
 }
