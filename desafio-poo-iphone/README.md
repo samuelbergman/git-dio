@@ -1,18 +1,10 @@
-## Getting Started
+## POO - Desafio
+# Modelagem e Diagramação de um Componente iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Exemplo da estrutura com interface em java, seguindo o UML abaixo:
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+##  Diagrama UML
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+![App Screenshot](https://github.com/samuelbergman/git-dio/blob/main/desafio-poo-iphone/uml_iphone.png?raw=true)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
